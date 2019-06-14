@@ -5,6 +5,8 @@ import ProductPage from "../Pages/ProductPage";
 import ContactPage from "../Pages/ContactPage";
 import AdminPage from "../Pages/AdminPage";
 import ErrorPage from "../Pages/ErrorPage";
+import LoginPage from "../Pages/LoginPage";
+import ProductListPage from "../Pages/ProductListPage";
 
 
 class Page extends Component {
@@ -12,9 +14,10 @@ class Page extends Component {
         return (
             <Switch>
             <Route path='/' exact component={HomePage}   />
-            <Route path='/products' component={ProductPage}   />
+            <Route path='/products' component={ProductListPage}   />
             <Route path='/contact' component={ContactPage}   />
             <Route path='/admin'  component={AdminPage}   />
+            <Route path='/login'  component={LoginPage}   />
             <Route component={ErrorPage}   />
     </Switch>
 

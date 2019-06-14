@@ -10,7 +10,9 @@ const Header = () => {
 
     return (
 
-        <Switch>
+        <Switch render={()=>(
+            <img src={img2} alt="lake"/>
+        )}>
             <Route path='/' exact render={() => (
                 <img src={img1} alt="lake"/>)}/>
 
@@ -22,6 +24,7 @@ const Header = () => {
 
             <Route path='/admin' render={() => (
                 <img src={img2} alt="lake"/>)}/>
+
         </Switch>
 
     );
