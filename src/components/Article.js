@@ -5,13 +5,14 @@ class Article extends Component {
         const {author, text, title} = this.props;
 
         const styles = {
-            marginTop: 40
+            marginTop: 40,
+            marginLeft: "1rem"
         }
         return (
             <article style={styles}>
-                <h1>{title}</h1>
+                <h3 style={{textTransform: "uppercase", marginBottom: "1rem"}}>{title}</h3>
                 <span>{author}</span>
-                <p>{text}</p>
+                <p style={{fontSize: 15}}>{text}</p>
             </article>
         );
     }
