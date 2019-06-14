@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class HomePage extends Component {
+class AdminPage extends Component {
     render() {
         return (
             <div>
-
+                Panel logowania
             </div>
         );
     }
 }
 
-export default HomePage;
+export default AdminPage;
