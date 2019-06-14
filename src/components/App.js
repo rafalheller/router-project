@@ -12,15 +12,14 @@ function App() {
             <div className="app">
 
                     <header >
-
                         {<Header/>}
-
-
                     </header>
+
                     <main>
                         <aside>
                             {<Nav/>}
                         </aside>
+
                         <section className='page'>
                             {<Page/>}
                         </section>
@@ -29,8 +28,6 @@ function App() {
                         {<Footer/>}
                     </footer>
                 </div>
-
-
         </Router>
     );
 }
