@@ -9,23 +9,25 @@ import Page from "./Page";
 function App() {
     return (
         <Router>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">nav</Link>
-                    </li>
-                    <li>
-                        <Link to="/header/">header</Link>
-                    </li>
-                    <li>
-                        <Link to="/footer/">footer</Link>
-                    </li>
-                </ul>
-            </nav>
-            <Route path="/" exact component={Nav}/>
-            <Route path="/header" component={Header}/>
-            <Route path="/page" component={Page}/>
-            <Route path="/footer" component={Footer}/>
+            <div className="app">
+
+                    <header >
+                        <div className="container">
+                        {<Header/>}
+                        </div>
+                    </header>
+                    <main>
+                        <aside>
+                            {<Nav/>}
+                        </aside>
+                        <section className='page'>
+                            {<Page/>}
+                        </section>
+                    </main>
+                    <footer>
+                        {<Footer/>}
+                    </footer>
+                </div>
 
 
         </Router>

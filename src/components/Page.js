@@ -4,7 +4,11 @@ class Page extends Component {
     render() {
         return (
             <div>
-          Page
+                <div className='container'>
+
+
+                    Page
+                </div>
             </div>
         );
     }
