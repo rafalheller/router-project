@@ -1,15 +1,10 @@
 import React, {Component} from 'react';
+import {Route} from 'react-router-dom'
 
 class Page extends Component {
     render() {
         return (
-            <div>
-                <div className='container'>
-
-
-                    Page
-                </div>
-            </div>
+            <Route/>
         );
     }
 }

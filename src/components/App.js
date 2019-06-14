@@ -12,9 +12,10 @@ function App() {
             <div className="app">
 
                     <header >
-                        <div className="container">
+
                         {<Header/>}
-                        </div>
+
+
                     </header>
                     <main>
                         <aside>
