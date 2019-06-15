@@ -1,13 +1,25 @@
 import React, {Component} from 'react';
+import {Route} from "react-router-dom"
+import './../scss/Footer.scss'
 
 class Footer extends Component {
     render() {
         return (
 
-            <div>
-                <div className="container">
-            FOOTER
-            </div>
+
+            <div className="container">
+                <h2>Footer</h2>
+                <Route path='/' exact render={(props) => {
+                    console.log(props);
+                    return <p>jesteś na <span>stronie głównej</span></p>
+                }}/>
+                <Route path='/:page' exact render={(props) => {
+                    console.log(props);
+                    return <p>jesteś na <span>{props.match.params.page}</span></p>
+
+
+                }}/>
+
             </div>
         );
     }
