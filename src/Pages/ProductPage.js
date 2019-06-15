@@ -1,13 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Product from "../components/Product";
+import {Link} from "react-router-dom";
 
-class ProductPage extends Component {
-    render() {
-        return (
-            <div>
-                Produkty
-            </div>
-        );
-    }
+
+const ProductPage = ({match}) => {
+    return (
+        <>
+            <div>Strona produktów</div>
+            <Product id={match.params.id} />
+            <Link to='/products'>Powrót do listy zakupów</Link>
+        </>
+    )
 }
+
 
 export default ProductPage;

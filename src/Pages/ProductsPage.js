@@ -5,7 +5,7 @@ class ProductsPage extends Component {
     render() {
         return (
             <div>
-
+produkty wsztsrkie
             </div>
         );
     }

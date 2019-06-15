@@ -1,6 +1,6 @@
 import React from 'react';
 import '../scss/App.scss';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Header from "./Header";

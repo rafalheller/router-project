@@ -1,20 +1,23 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import './../scss/ProductListPage.scss'
 
-const products = ["car", "boat", "plane"];
-const list = products.map(product => (
-    <li key={product}>
-        <Link to={`/products/${product}`}>{product}</Link>
-            </li>
-            ))
-class ProductListPage extends Component {
+const products = ["car", "boat", "plane","truck"];
 
+const ProductListPage = () =>{
+    const list = products.map(product => (
+        <li key={product}>
+            <Link to={`/product/${product}`}>{product}</Link>
+        </li>
+    ))
 
-    render() {
+{
         return (
             <div className='products'>
-                <h1>Lista produktów</h1>
-                <div>{list}</div>
+                <h2>Lista produktów</h2>
+                <div>
+                    <ul>{list}</ul>
+                    </div>
 
             </div>
         );

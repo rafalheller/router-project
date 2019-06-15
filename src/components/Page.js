@@ -15,7 +15,9 @@ class Page extends Component {
             <Switch>
             <Route path='/' exact component={HomePage}   />
             <Route path='/products' component={ProductListPage}   />
-            <Route path='/contact' component={ContactPage}   />
+                <Route path='/contact' component={ContactPage}   />
+                <Route path='/product/:id' component={ProductPage}   />
+
             <Route path='/admin'  component={AdminPage}   />
             <Route path='/login'  component={LoginPage}   />
             <Route component={ErrorPage}   />
