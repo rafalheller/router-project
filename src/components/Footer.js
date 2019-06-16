@@ -9,12 +9,10 @@ class Footer extends Component {
 
             <div className="container">
                 <h2>Footer</h2>
-                <Route path='/' exact render={(props) => {
-                    console.log(props);
+                <Route path='/' exact render={() => {
                     return <p>jesteś na <span>stronie głównej</span></p>
                 }}/>
                 <Route path='/:page' exact render={(props) => {
-                    console.log(props);
                     return <p>jesteś na <span>{props.match.params.page}</span></p>
 
 

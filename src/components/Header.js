@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom'
 import img1 from './../images/lake.jpg'
 import img2 from './../images/lake2.jpg'
 import img3 from './../images/lake3.jpg'
+import login from './../images/login.jpg'
 
 const Header = () => {
 
@@ -24,6 +25,10 @@ const Header = () => {
 
             <Route path='/admin' render={() => (
                 <img src={img2} alt="lake"/>)}/>
+
+            <Route path='/login' render={() => (
+                <img src={login} alt="login"/>)}/>
+                <Route path="/books" render={()=>(<img src={img3} alt="books"/>)}/>
 
         </Switch>
 

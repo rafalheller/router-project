@@ -23,7 +23,7 @@ class ContactPage extends Component {
         } else {
             this.setState({
                 value: e.target.value,
-            isEmpty: false
+                isEmpty: false
         })
         }
     }

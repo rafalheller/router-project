@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "author": "J.K Rowling",
+      "title": "Harry Potter",
+      "text": "Macaroon powder tiramisu. Jelly-o fruitcake gummies gingerbread cake. Wafer oat cake toffee caramels bear claw bear claw dragée. Jelly-o lemon drops cake bear claw dragée icing. Chocolate bar caramels lollipop. Lemon drops cheesecake danish. Tiramisu pudding gingerbread cotton candy candy canes chocolate cake icing cotton candy jujubes. Candy soufflé candy canes oat cake. Biscuit pudding cotton candy carrot cake. Lollipop marshmallow tiramisu liquorice cookie lollipop pie. Jelly macaroon candy canes cake sweet roll. Ice cream carrot cake cookie lemon drops carrot cake candy canes ice cream dessert toffee."
+
+    },{
+      "id": "2",
+      "author": "Rafał Heller",
+      "title": "Super książka",
+      "text": "Macaroon powder tiramisu. Jelly-o fruitcake gummies gingerbread cake. Wafer oat cake toffee caramels bear claw bear claw dragée. Jelly-o lemon drops cake bear claw dragée icing. Chocolate bar caramels lollipop. Lemon drops cheesecake danish. Tiramisu pudding gingerbread cotton candy candy canes chocolate cake icing cotton candy jujubes. Candy soufflé candy canes oat cake. Biscuit pudding cotton candy carrot cake. Lollipop marshmallow tiramisu liquorice cookie lollipop pie. Jelly macaroon candy canes cake sweet roll. Ice cream carrot cake cookie lemon drops carrot cake candy canes ice cream dessert toffee."
+    },{
+      "id": "3",
+      "author": "Klaudia Heller",
+      "title": "Super książka 2",
+      "text": "Macaroon powder tiramisu. Jelly-o fruitcake gummies gingerbread cake. Wafer oat cake toffee caramels bear claw bear claw dragée. Jelly-o lemon drops cake bear claw dragée icing. Chocolate bar caramels lollipop. Lemon drops cheesecake danish. Tiramisu pudding gingerbread cotton candy candy canes chocolate cake icing cotton candy jujubes. Candy soufflé candy canes oat cake. Biscuit pudding cotton candy carrot cake. Lollipop marshmallow tiramisu liquorice cookie lollipop pie. Jelly macaroon candy canes cake sweet roll. Ice cream carrot cake cookie lemon drops carrot cake candy canes ice cream dessert toffee."
+    },{
+      "id": "4",
+      "author": "Jan Nowak",
+      "title": "Super książka 3",
+      "text": "Macaroon powder tiramisu. Jelly-o fruitcake gummies gingerbread cake. Wafer oat cake toffee caramels bear claw bear claw dragée. Jelly-o lemon drops cake bear claw dragée icing. Chocolate bar caramels lollipop. Lemon drops cheesecake danish. Tiramisu pudding gingerbread cotton candy candy canes chocolate cake icing cotton candy jujubes. Candy soufflé candy canes oat cake. Biscuit pudding cotton candy carrot cake. Lollipop marshmallow tiramisu liquorice cookie lollipop pie. Jelly macaroon candy canes cake sweet roll. Ice cream carrot cake cookie lemon drops carrot cake candy canes ice cream dessert toffee."
+    },{
+      "id": "5",
+      "author": "Michał Kowalski",
+      "title": "Super książka 4",
+      "text": "Macaroon powder tiramisu. Jelly-o fruitcake gummies gingerbread cake. Wafer oat cake toffee caramels bear claw bear claw dragée. Jelly-o lemon drops cake bear claw dragée icing. Chocolate bar caramels lollipop. Lemon drops cheesecake danish. Tiramisu pudding gingerbread cotton candy candy canes chocolate cake icing cotton candy jujubes. Candy soufflé candy canes oat cake. Biscuit pudding cotton candy carrot cake. Lollipop marshmallow tiramisu liquorice cookie lollipop pie. Jelly macaroon candy canes cake sweet roll. Ice cream carrot cake cookie lemon drops carrot cake candy canes ice cream dessert toffee."
+    }
+  ]
+}

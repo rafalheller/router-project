@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import './../scss/Error.scss'
 
 class ErrorPage extends Component {
     render() {
         return (
-            <div>
-                Nie ma takiej strony
+            <div className='error'>
+                <h2>Uuppsssss, nie ma takiej strony</h2>
             </div>
         );
     }

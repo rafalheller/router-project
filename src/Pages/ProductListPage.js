@@ -11,7 +11,7 @@ const ProductListPage = () =>{
         </li>
     ))
 
-{
+
         return (
             <div className='products'>
                 <h2>Lista produktów</h2>
@@ -22,6 +22,6 @@ const ProductListPage = () =>{
             </div>
         );
     }
-}
+
 
 export default ProductListPage;

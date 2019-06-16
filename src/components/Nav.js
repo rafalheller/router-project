@@ -5,7 +5,8 @@ const list = [
     {name:'start', path:'/', exact: true},
     {name:'produkty', path:'/products'},
     {name:'kontakt', path:'/contact'},
-    {name:'panel admin', path:'/admin'}
+    {name:'panel admin', path:'/admin'},
+    {name:'books', path:'/books'}
 ]
 
 class Nav extends Component {

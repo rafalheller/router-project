@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Article from "../components/Article";
 
 
-
 const articles = [{
     id: 1,
     title: "lorem1",
@@ -32,7 +31,10 @@ class HomePage extends Component {
             return (
                 <Article key={article.id} {...article}/>
             );
-        })
+        });
+
+
+
 
         return (
             <div className='home'>
